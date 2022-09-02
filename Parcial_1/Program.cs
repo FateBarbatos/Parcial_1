@@ -20,7 +20,7 @@ namespace Parcial_1
                 double lab2;
                 double parc;
 
-                while (contador <= numEstudia)
+                while (contador < numEstudia)
                 {
                     Console.WriteLine("Ingrese el nombre completo del estudiante:");
                     nombre = Console.ReadLine();
@@ -48,6 +48,7 @@ namespace Parcial_1
 
                 Console.WriteLine("");
                 Console.WriteLine("Si desea ingresar nuevos datos de estudiantes,digite cero y de click en enter");
+                validador = int.Parse(Console.ReadLine());
             } while (validador == 0);
 
             //funciones
