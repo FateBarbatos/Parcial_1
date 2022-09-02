@@ -99,6 +99,6 @@ public class Estudiantes
 
     public string getData()
     {
-        return "El nombre es:" + _nombre + " la nota final es: " + _notaFinal + " por lo tanto el estudiante esta:" + Aprob;
+        return "El nombre es:" + _nombre + " ,la nota final es: " + _notaFinal + " ,por lo tanto el estudiante esta:" + Aprob;
     }
 }
