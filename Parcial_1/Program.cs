@@ -62,11 +62,11 @@ namespace Parcial_1
             {
                 if(NotaFinal > 6)
                 {
-                    return "aprobo";
+                    return "aprobado";
                 }
                 else
                 {
-                    return "reprobo";
+                    return "reprobado";
                 }
             }
 
